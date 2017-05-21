@@ -30,7 +30,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-apis
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libsdm-disp-apis.so
 LOCAL_SRC_FILES_32 := proprietary/vendor/lib/libsdm-disp-apis.so
 LOCAL_MULTILIB := both
@@ -66,7 +66,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTelephonyService
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/app/QtiTelephonyService/QtiTelephonyService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -77,7 +77,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -88,7 +88,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := datastatusnotification
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/app/datastatusnotification/datastatusnotification.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -99,7 +99,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := embms
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/app/embms/embms.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -110,7 +110,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := fastdormancy
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/app/fastdormancy/fastdormancy.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -121,7 +121,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/app/shutdownlistener/shutdownlistener.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -132,7 +132,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := CNEService
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/priv-app/CNEService/CNEService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -144,7 +144,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := QtiTetherService
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/priv-app/QtiTetherService/QtiTetherService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -156,7 +156,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := com.qualcomm.location
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -168,7 +168,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := dpmserviceapp
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -180,7 +180,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -204,7 +204,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/vendor/app/ims/ims.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -216,7 +216,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := imssettings
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/vendor/app/imssettings/imssettings.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -228,7 +228,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/framework/qcnvitems.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -238,7 +238,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
-LOCAL_MODULE_OWNER := leeco
+LOCAL_MODULE_OWNER := Android
 LOCAL_SRC_FILES := proprietary/framework/qcrilhook.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
