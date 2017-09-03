@@ -6,9 +6,5 @@
  -->
 <permissions>
     <library name="com.qti.vzw.ims.internal"
-<<<<<<< HEAD
-          file="/system/vendor/framework/qti-vzw-ims-internal.jar"/>
-=======
           file="/system/framework/qti-vzw-ims-internal.jar"/>
->>>>>>> a980aed... Steal CNE/imsdatadaemon from Marlin
 </permissions>
