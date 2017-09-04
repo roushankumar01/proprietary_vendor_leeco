@@ -653,4 +653,8 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_client.so:system/vendor/lib64/libyep_qmi_client.so \
     vendor/leeco/x2/proprietary/vendor/lib64/libyep_qmi_server.so:system/vendor/lib64/libyep_qmi_server.so \
     vendor/leeco/x2/proprietary/vendor/lib64/mmi_flashlight.so:system/vendor/lib64/mmi_flashlight.so \
-    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so
+    vendor/leeco/x2/proprietary/vendor/lib64/qfp.wakeup.so:system/vendor/lib64/qfp.wakeup.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libprotobuf-cpp-fool.so:system/vendor/lib64/libprotobuf-cpp-fool.so \
+    vendor/leeco/x2/proprietary/vendor/lib64/libprotobuf-cpp-late.so:system/vendor/lib64/libprotobuf-cpp-late.so
+
