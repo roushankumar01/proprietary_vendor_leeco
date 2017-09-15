@@ -421,10 +421,13 @@ PRODUCT_PACKAGES += \
     embms \
     fastdormancy \
     shutdownlistener \
+    CNEService \
     QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
+    ims \
+    imssettings \
     qcnvitems \
     qcrilhook
 PRODUCT_COPY_FILES += \

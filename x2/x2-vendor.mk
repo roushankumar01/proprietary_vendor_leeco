@@ -175,13 +175,10 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libjpush219.so:system/lib/libjpush219.so \
     vendor/leeco/x2/proprietary/lib/libmksdk_platform_jni.so:system/lib/libmksdk_platform_jni.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
-    vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/leeco/x2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/leeco/x2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/x2/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/x2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/x2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
-    vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/x2/proprietary/lib/libqrDec.so:system/lib/libqrDec.so \
     vendor/leeco/x2/proprietary/lib64/hw/fingerprint.vendor.msm8996.so:system/lib64/hw/fingerprint.vendor.msm8996.so \
     vendor/leeco/x2/proprietary/lib64/libminui.so:system/lib64/libminui.so \
