@@ -175,6 +175,9 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/x2/proprietary/lib/libjpush219.so:system/lib/libjpush219.so \
     vendor/leeco/x2/proprietary/lib/libmksdk_platform_jni.so:system/lib/libmksdk_platform_jni.so \
     vendor/leeco/x2/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
+    vendor/leeco/x2/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/leeco/x2/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/leeco/x2/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/leeco/x2/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/leeco/x2/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/x2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
