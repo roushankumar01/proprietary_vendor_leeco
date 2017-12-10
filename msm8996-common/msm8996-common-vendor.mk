@@ -16,6 +16,16 @@
 
 PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/bin/btnvtool:system/bin/btnvtool \
+    vendor/leeco/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/leeco/msm8996-common/proprietary/bin/imscmservice:system/bin/imscmservice \
+    vendor/leeco/msm8996-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
+    vendor/leeco/msm8996-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
+    vendor/leeco/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
+    vendor/leeco/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/leeco/msm8996-common/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/leeco/msm8996-common/proprietary/bin/radish:system/bin/radish \
+    vendor/leeco/msm8996-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/leeco/msm8996-common/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/leeco/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/leeco/msm8996-common/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/leeco/msm8996-common/proprietary/bin/cnss_diag:system/bin/cnss_diag \
@@ -96,6 +106,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/lib/vendor.qti.imsrtpservice@1.0.so:system/lib/vendor.qti.imsrtpservice@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib64/com.qualcomm.qti.imscmservice@1.0.so:system/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib64/libparam.so:system/lib64/libparam.so \
+    vendor/leeco/msm8996-common/proprietary/lib64/libqti_performance.so:system/lib64/libqti_performance.so \
     vendor/leeco/msm8996-common/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/leeco/msm8996-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
@@ -316,8 +327,17 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/hw/vulkan.msm8996.so:system/vendor/lib64/hw/vulkan.msm8996.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imscmservice.so:system/vendor/lib64/lib-imscmservice.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
@@ -325,6 +345,11 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/librcc.so:system/vendor/lib64/librcc.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
+    vendor/leeco/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/leeco/msm8996-common/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/lib-uceservice.so:system/vendor/lib64/lib-uceservice.so \
     vendor/leeco/msm8996-common/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
