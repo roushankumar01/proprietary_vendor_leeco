@@ -18,28 +18,28 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter zl1 x2,$(TARGET_DEVICE)),)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.qti.dpmframework
-LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/framework/com.qti.dpmframework.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := com.qti.dpmframework
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/framework/com.qti.dpmframework.jar
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := dpmapi
-LOCAL_MODULE_OWNER := oneplus
-LOCAL_SRC_FILES := proprietary/framework/dpmapi.jar
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := JAVA_LIBRARIES
-LOCAL_MODULE_SUFFIX := .jar
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := dpmapi
+#LOCAL_MODULE_OWNER := oneplus
+#LOCAL_SRC_FILES := proprietary/framework/dpmapi.jar
+#@LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+#LOCAL_MODULE_SUFFIX := .jar
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
+LOCAL_SRC_FILES := proprietary/vendor/lib64/libloc_api_v02.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -223,17 +223,17 @@ LOCAL_MODULE_SUFFIX := .apk
 LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := dpmserviceapp
-LOCAL_MODULE_OWNER := leeco
-LOCAL_SRC_FILES := proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_PRIVILEGED_MODULE := true
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := dpmserviceapp
+#LOCAL_MODULE_OWNER := leeco
+#LOCAL_SRC_FILES := proprietary/priv-app/dpmserviceapp/dpmserviceapp.apk
+#LOCAL_CERTIFICATE := platform
+#LOCAL_MODULE_TAGS := optional
+#LOCAL_MODULE_CLASS := APPS
+#LOCAL_DEX_PREOPT := false
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_PRIVILEGED_MODULE := true
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := ims
