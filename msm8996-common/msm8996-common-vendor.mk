@@ -421,6 +421,7 @@ PRODUCT_PACKAGES += \
     embms \
     fastdormancy \
     shutdownlistener \
+    QtiTetherService \
     com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
