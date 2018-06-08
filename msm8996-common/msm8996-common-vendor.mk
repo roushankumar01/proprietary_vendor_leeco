@@ -90,7 +90,6 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/cnss-daemon:system/vendor/bin/cnss-daemon \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/cnss_diag:system/vendor/bin/cnss_diag \
-    vendor/leeco/msm8996-common/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/fstman:system/vendor/bin/fstman \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/leeco/msm8996-common/proprietary/vendor/bin/hdcp1prov:system/vendor/bin/hdcp1prov \
